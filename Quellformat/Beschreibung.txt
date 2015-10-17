@@ -1,0 +1,38 @@
+
+
+
+Grundlegendes Format: .CSV (Komma-separierte Werte)
+
+
+Verfügbare PB:
+  - Basic Conversation
+    - 1) Phrases for refugees
+    - 2) Phrases for helpers
+    - 3) care section
+      ? 2) und 3) einfach nur anders angeordnet ?
+  - Medical Phrasebook
+  - Juridical Phrasebook
+
+
+SPALTEN:
+  - Zahl: 
+    - 
+
+  - erst ab definierter Zeilennummer parsen
+    -> Unterschiede zwischen den einzelnen PB
+
+  - ID ^= internationale/englischsprachige Kennzeichnung der Phrase/des Wortes
+    - Nur enthalten in:
+      - Basic Conversation 1)
+      - Medical Phrasebook
+
+  - Folgend: Alle verfügbaren Sprachen
+    -> teilweise leere Spalten -> ignorieren!
+
+
+ZEILEN:
+  - Phrasen/Wörter 
+    - Ordnung?
+
+
+- Einige Fehler (z.B. Monate/Tage in einer Zelle -> nicht passend zu ID)
